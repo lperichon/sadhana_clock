@@ -11,7 +11,7 @@ run(function () {
 		});
 	});
     when('#clock', function () {
-        store.all(function (saved) {
+        //store.all(function (saved) {
 	  var canvas;
 	  var ctx;
 	  var lastend = 0;
@@ -22,7 +22,7 @@ run(function () {
 
 	  ctx.clearRect(0, 0, canvas.width, canvas.height);
 	  plotData(ctx);
-        });
+        //});
     });
     when('#save', function () {
 	// iterate over all fields
